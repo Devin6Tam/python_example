@@ -7,9 +7,9 @@ from threading import Thread
 
 
 """ 你的 APPID AK SK """
-APP_ID ="18233602"
-API_KEY = "tjtBeyGYsb9GSttixzOjTANb"
-SECRET_KEY = "ugyNv4nrslBliUotYU6zjyWn2d4NKjW0"
+APP_ID ="你的 APPID"
+API_KEY = "你的 AK"
+SECRET_KEY = "你的 SK"
 
 gesture_client = AipBodyAnalysis(APP_ID, API_KEY, SECRET_KEY)
 

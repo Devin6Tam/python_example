@@ -18,8 +18,7 @@ music_names = os.listdir("music")
 
 print(music_names)
 
-for name in music_paths:
-    print(name)
+for name in music_names:
     music_paths.append("music/"+name)
 
 music_count = len(music_paths)
